@@ -69,7 +69,7 @@ public class UserAccountInfoTest {
         var response = Await.result(responseFuture);
         var actualResponse = JsonUtil.parseJson(response.getContentString(), UserAccountInfo.class);
         var expectedResponse = getExpectedResponse();
-        System.out.println("Actual Response -" + actualResponse);
+        System.out.println("Received Response -" + response.getContentString());
         assertEquals(actualResponse, expectedResponse, "Response not matching");
 
     }
