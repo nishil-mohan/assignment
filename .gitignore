@@ -1,0 +1,17 @@
+
+/*/*.iml
+/*/build
+/build
+/*/bin
+target/
+# Scala-IDE specific
+.idea
+/*.iml
+*/target
+*.tar.gz
+/out/
+
+.DS_Store
+classes/*
+
+
